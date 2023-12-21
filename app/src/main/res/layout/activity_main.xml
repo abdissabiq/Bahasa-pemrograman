@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/selamat_datang"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/air" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="No Telp"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="REGISTER" />
+
+
+</LinearLayout>
